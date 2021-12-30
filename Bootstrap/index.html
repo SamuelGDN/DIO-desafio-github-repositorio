@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
+    <div class="container-fluid cabecalho">
       <a class="navbar-brand" href="#">Minha Página</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,10 +18,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#parceiros">Parceiros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
@@ -40,6 +40,36 @@
       </div>
     </div>
   </nav>
+
+  <section id="home">
+    <div class="container-fluid home text-center">
+      <h3> Quem Somos</h3>
+      <div class="img_home">
+        <img src="assets/img/equipe-png.png" id="img_home" alt="imagem da equipe">
+      </div>
+      <h5>Um time comprometido!</h5>
+    </div>
+  </section>
+
+  <section id="parceiros">
+    <div class="container-fluid text-center parceiros">
+      <h3>Parceiros</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/img/perfil2.jpg" alt="" srcset="" class="img_perfil">
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img/man-6309454_960_720.webp" alt="" srcset="" class="img_perfil">
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img/perfil3.jpg" alt="" srcset="" class="img_perfil">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
