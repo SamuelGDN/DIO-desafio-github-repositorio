@@ -9,7 +9,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a href="#" class="navbar-brand">
+          <img id="logo" src="assets/img/snapsvg-seeklogo.com.svg" alt="Logo">Minha Página
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a href="#home" class="nav-item nav-link" id="home_menu">Home</a>
+            <a href="#parceiros" class="nav-item nav-link" id="parceiros_menu">Parceiros</a>
+            <a href="#servicos" class="nav-item nav-link" id="servicos_menu">Serviços</a>
+          </div>
+        </div> 
+      </nav>
+    </div>
+  </header>
+  <!-- '<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="cabecalho">
     <div class="container-fluid cabecalho">
       <a class="navbar-brand" href="#">Minha Página</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +43,7 @@
             <a class="nav-link" href="#parceiros">Parceiros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#servicos">Serviços</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,22 +58,22 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>' -->
 
   <section id="home">
     <div class="container-fluid home text-center">
-      <h3> Quem Somos</h3>
+      <h3 class="title"> Quem Somos</h3>
       <div class="img_home">
         <img src="assets/img/equipe-png.png" id="img_home" alt="imagem da equipe">
+        <h5>Um time comprometido!</h5>
       </div>
-      <h5>Um time comprometido!</h5>
     </div>
   </section>
 
   <section id="parceiros">
     <div class="container-fluid text-center parceiros">
-      <h3>Parceiros</h3>
       <div class="container">
+        <h3 class="title">Parceiros</h3>
         <div class="row">
           <div class="col-md-4">
             <img src="assets/img/perfil2.jpg" alt="" srcset="" class="img_perfil">
@@ -64,6 +83,25 @@
           </div>
           <div class="col-md-4">
             <img src="assets/img/perfil3.jpg" alt="" srcset="" class="img_perfil">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container-fluid text-center servicos">
+      <div class="container">
+        <h3 class="title">Serviços</h3>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/img-site.jpg" alt="site" class="img_servicos rounded-circle">
+          </div>
+          <div class="col-lg-4">
+            <img src="assets/img/img-app.jpg" alt="IOS" class="img_servicos">
+          </div>
+          <div class="col-lg-4">
+            <img src="assets/img/img-android.jfif" alt="Android" class="img_servicos">
           </div>
         </div>
       </div>

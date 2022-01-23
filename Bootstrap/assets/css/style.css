@@ -1,4 +1,19 @@
+/* Gerais */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+h5{
+    margin: 0;
+    padding: 0;
+}
 
 *{
     margin: 0;
@@ -7,8 +22,54 @@
     color: whitesmoke;
 }
 
+/* Barra de Navegação */
+header, .navbar{
+    background-color: #353d41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+    padding-right: 10px;
+}
+
+.navbar-brand{
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem 2rem;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+
+
+#cabecalho{
+    position: absolute;
+}
+
 .home{
     background-color: #505050;
+}
+
+.title{
+    color: black;
+    padding: 30px 0;
 }
 
 #img_home{
@@ -25,4 +86,18 @@
     width: 100%;
     border-radius: 50%;
     max-width: 300px;
+}
+
+.img_servicos{
+    width: 100%;
+    border-radius: 25%;
+    max-width: 350px;
+}
+
+.parceiros{
+    background-color: #405050;
+}
+
+.servicos{
+    background-color: #305050;
 }
