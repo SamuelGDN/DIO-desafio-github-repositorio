@@ -1,5 +1,1 @@
-function soma(a ,b){
-    console.log(a + b);
-}
-
-soma(2, 3);
+console.log("Olá Mundo")
